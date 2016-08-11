@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kidbucks.iml" filepath="$PROJECT_DIR$/kidbucks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kidbucks-lib/kidbucks-lib.iml" filepath="$PROJECT_DIR$/kidbucks-lib/kidbucks-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kidbucks-services/kidbucks-services.iml" filepath="$PROJECT_DIR$/kidbucks-services/kidbucks-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kidbucks-web/kidbucks-web.iml" filepath="$PROJECT_DIR$/kidbucks-web/kidbucks-web.iml" />
     </modules>
   </component>
 </project>

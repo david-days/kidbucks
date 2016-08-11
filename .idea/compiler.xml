@@ -17,6 +17,21 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kidbucks-lib" />
+        <module name="kidbucks-services" />
+        <module name="kidbucks-web" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kidbucks" target="1.5" />
+      <module name="kidbucks-lib" target="1.5" />
+      <module name="kidbucks-services" target="1.5" />
+      <module name="kidbucks-web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
