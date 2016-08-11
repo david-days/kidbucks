@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kidbucks-web:war">
+    <output-path>$PROJECT_DIR$/kidbucks-web/target</output-path>
+    <root id="archive" name="kidbucks-web.war">
+      <element id="artifact" artifact-name="kidbucks-web:war exploded" />
+    </root>
+  </artifact>
+</component>
